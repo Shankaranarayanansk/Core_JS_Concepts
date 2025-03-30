@@ -1,0 +1,28 @@
+JS is created in 1995 in just 10days 
+Mocha - LiveScript - Javascript 
+ECMA used js same as js 
+made support in IE5 for err -handling 1999
+Json in 2009 
+for getting data from backend we used earlier XML
+json easy to formate
+Current version -  ES14
+
+Features:
+-Mainly used for Client Side 
+-getting data dynammically 
+-V8 engine uses interpreter 
+-Is dynammically and weaked type 
+-Asynchronous type language
+-Event Driven Programming (Says error when submit)
+-SPA means only template changes
+-Object based script language but fully OOP
+
+Application of JS: 
+  -Web Application -React,Angular,Vue 
+  -Desktop Application -Electron
+  -Game Application -three js, Phaser.js , Babylon.js
+  -Backend Application -Node,Express
+  -Mobile Application -React Native,Iconic,Cordova
+  -IOT Application -Johnny-Five
+  -Machine Learning -Tensorflow.js
+  -
