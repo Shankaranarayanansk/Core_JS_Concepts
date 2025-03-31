@@ -1,0 +1,9 @@
+js is Dynamically typed language so no need to mention datatype
+
+string can be decalred as double quoates , single quoates , backticks
+
+booleans
+
+the above are primitive data type  and below are primitive datatype 
+
+array

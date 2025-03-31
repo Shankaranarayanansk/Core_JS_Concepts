@@ -1,0 +1,5 @@
+in let the redeclaration is not possible but reassing is possible 
+
+const - fixed val that can't be changed no redeclaration and no reassing
+
+var not like so it can reassing and redeclaration

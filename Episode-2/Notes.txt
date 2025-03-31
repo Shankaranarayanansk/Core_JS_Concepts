@@ -1,0 +1,4 @@
+developer friendly 
+ -Camel CAse (camelCase)
+ -Pascal CAse (PascalCase)
+ -UnderCase(Under_Case)
