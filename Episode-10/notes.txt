@@ -1,0 +1,10 @@
+hoisting means which moves the variable declaration and 
+function moves to top of the code excution
+
+When we use the hoisting concept for var it shows undefined
+only declaration not initialization
+
+Reason y let not works on hoisting 
+ -temporal Dead Zone(let and const comes under it)
+ -let and const through err becoz it need to initilize declare is not enough
+ -only possible for named functions (for var typeErr and let says reference err)
