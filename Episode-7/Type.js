@@ -24,6 +24,7 @@ console.log(Number({}))//object have string so string
 //using boolean
 console.log(Boolean("jkas"))//boolean of anything true only false for 0 , undefind, null
 console.log(Boolean(NaN))//false
+console.log(a)
 
 //String 
 // console.log(String("Sha"))

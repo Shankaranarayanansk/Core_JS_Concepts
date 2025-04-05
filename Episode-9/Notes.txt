@@ -1,0 +1,16 @@
+Diff b/w arrow and ananamous function
+ -arrow is simple no need {} if only one stamt 
+ -but in other {} is compulsory
+ const arrow =()=>
+{
+    console.log("Arrow")
+}
+arrow()
+
+
+in above the parameter also no need if one parameter gave means
+...............................................................
+Higher order function:
+ -The higher order functions means and function which pass as a argument 
+ -passing a function as a argument is called as callback function
+ -Oru function na argument ta receive pannura function name the higher order function
