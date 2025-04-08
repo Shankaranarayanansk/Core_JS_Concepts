@@ -1,1 +1,2 @@
 IIFE - Self invoke function
+ closure: concept of using the outer function var in innner function
