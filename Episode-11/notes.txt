@@ -1,0 +1,7 @@
+Currying 
+ -in normal function we pass the argument in single line
+  but in Currying we can pass thani thani argument in calling tha function
+
+Example:
+    f(a,b,c) -> uncurrying file
+    f(a)(b)(c) ->Currying file
