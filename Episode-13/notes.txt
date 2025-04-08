@@ -1,0 +1,6 @@
+Generator function:
+ -in normal function the return will stop the function
+  but using this we can go next process byyield keyword
+
+  one by one is for next 
+  yield act like a return
