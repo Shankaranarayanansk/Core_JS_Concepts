@@ -1,0 +1,7 @@
+in js array can hold any types ie;.different types
+array size can increase and decrease it is flexible
+
+in sparse array that uses space for empty also to resolve it we use the 
+hashmap
+
+for managing the dense array we use the Contiguous Memory Locations
