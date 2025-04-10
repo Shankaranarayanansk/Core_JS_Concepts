@@ -1,0 +1,5 @@
+Filter and finds 
+ -Filter will return in newArr by condition
+ -find simalar but one returns
+ -Filter and map also same but filter only add the true data to new returned array
+ -filters also support chainings
