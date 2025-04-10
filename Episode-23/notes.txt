@@ -1,0 +1,11 @@
+HOF is used  for the iterating the arrays
+it is advanced of for loops 
+ 
+-Json(string formate)
+-display in UI we use the HOF
+-Filter,Map,Reduce,forEach
+-use to iterate the json data from API
+forEach:
+  -won't return new Arrays but map will
+  -Obtaining value can be modified in forEach loop
+  -Foreach update pannikalam map to new va vaagikalam
