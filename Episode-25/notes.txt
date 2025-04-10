@@ -1,0 +1,6 @@
+a-b => ascen
+a-b=>ve+ => swap
+a-b=>ve- => no swap
+b-a =>decs
+b-a => ve+=>swap
+b-a => ve-=>no swap
