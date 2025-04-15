@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document-Selecting</title>
+    <style>
+
+    </style>
+</head>
+<body>
+    <h1>DOM</h1>
+    <h2>JS</h2>
+    <p class="p1">Content 1</p>
+    <p class="p2">Content 2</p>
+    <p class="p3">Content 3</p>
+    <p id="p4">hello</p>
+    <input type="text" placeholder="enter name" name="input1">
+    <script>//6 techniquues
+        console.log(document)
+        console.log(document.body)
+        let a = document.getElementsByTagName("h1")
+        let b = document.getElementsByClassName("p1")
+        let c = document.getElementById("p4")
+        let d = document.getElementsByName("input1")
+        let e = document.querySelector(".p1")
+        let f = document.querySelectorAll(".p3")
+        console.log(a)
+        console.log(b)
+        console.log(c)
+        console.log(d)
+        console.log(e.innerHTML)
+        console.log(f)
+        let newel = document.createElement("h3")
+        newel.innerText = "Vanakam"
+        document.body.append(newel)
+        console.log(newel)
+    </script>
+</body>
+</html>
