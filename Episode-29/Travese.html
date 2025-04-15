@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="parent">
+        hey naa c1 ku mela
+        <div class="child1">Content ithu</div>
+        naa c2 ku mela
+        <div class="child2">Content athu</div>
+        naa c3 ku mela
+        <div class="child3">Content yethu</div>
+        <button onclick="travese()">Click!</button>
+    </div>
+    <script>
+        function travese()
+        {
+            let a = document.querySelector(".child2")
+            console.log(a.parentElement)//tag based
+            console.log(a.parentNode)//node based
+            let html = document.querySelector("html")
+            console.log(html.parentNode)
+            console.log(html.parentElement)
+        }
+        function child()
+        {
+            let a = document.querySelector('.parent')
+            let b = document.querySelector('.parent')
+            console.log(b.childElementCount)
+            console.log(a.childNodes)
+            console.log(a.children)
+            console.log(a.firstElementChild)
+            console.log(a.firstChild)//see node too
+            console.log(a.lastChild)
+        }
+        child()
+
+        //siblings 
+        function sibling()
+        {
+           let a = document.querySelector(".child1")
+           console.log(a.nextSibling)//acts a node 
+           console.log(a.nextElementSibling)
+           console.log(a.previousElementSibling)
+           console.log(a.previousSibling)
+        }
+        sibling();
+    </script>
+</body>
+</html>
