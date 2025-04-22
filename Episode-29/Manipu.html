@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container
+        {
+            background-color: aquamarine;
+            width: 400px;
+            margin: auto;
+            padding: 10px;
+            box-shadow: 10px 10px 4px white;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <input type="text">
+        <button onclick="manipulate()">Click to add</button>
+        <ol>
+            <li>item</li>
+            <li>item</li>
+            <li>item</li>
+        </ol>
+    </div>
+    
+     <script>
+        function manipulate()
+        {
+           
+            let a = document.createElement("li")
+            let b = document.querySelector("input")
+            let c = document.querySelector("ol")
+            a.innerText = b.value;
+            //changing color using js 
+            //dynamic CSS
+            a.style.color ="green"
+            c.prepend(a)//both is done here
+            // c.insertBefore(a,c.children[2])
+            // c.replaceChild(a,c.children[3])
+            // c.append("a",a)//both text and element can added
+            // c.appendChild(a)//only element only 
+            // console.log(a)
+            // console.log(a)
+            // a.innerText = "itemithu"
+            // a.innerHTML = "<a>link</a>"
+            // a.textContent = "<a>text content</a>"
+            // console.log(a)
+        }
+    </script>
+</body>
+</html>
