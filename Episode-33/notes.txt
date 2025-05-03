@@ -1,0 +1,55 @@
+ webapis, callStack , Callback Queue
+Diagram:
+          ┌────────────────────────────┐
+          │        JavaScript Code     │
+          └────────────┬───────────────┘
+                       │
+                       ▼
+          ┌────────────────────────────┐
+          │        Call Stack(LIFO)          │◄────────────────────┐
+          └────────────┬───────────────┘                     │
+                       │                                     │
+   ┌──────────── Async Function (e.g., setTimeout) ─────────┘
+   ▼
+┌────────────────────────────┐
+│         Web APIs           │
+└────────────┬───────────────┘
+             │   (After timer/event complete)
+             ▼
+┌────────────────────────────┐
+│      Callback Queue(FIFO)  │
+└────────────┬───────────────┘
+             │   (Event Loop moves task when stack is empty)
+             ▼
+     ┌────────────────────┐
+     │   Back to Call Stack│
+     └────────────────────┘
+Callback Queue:
+
+🟢 1. Macro-task Queue (aka Task Queue or Callback Queue)
+These are the main callbacks that run after the current call stack is empty.
+
+Examples:
+
+setTimeout
+
+setInterval(will do repetedly)
+
+setImmediate (Node.js)
+
+I/O operations
+
+DOM events
+
+🕑 One task from this queue is processed per event loop tick.
+
+🔵 2. Micro-task Queue
+These tasks have higher priority than macro-tasks. They're run immediately after the current task finishes, before the next macro-task starts.
+
+Examples:
+
+Promises (.then(), .catch(), .finally())
+
+MutationObserver
+
+queueMicrotask()
